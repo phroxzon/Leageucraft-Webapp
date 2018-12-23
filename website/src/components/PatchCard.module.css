@@ -1,0 +1,84 @@
+.patchCardWrapper {
+  font-family: "Helvetica Neue";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.patchCardWrapper h2 {
+  font-family: "Bebas Neue";
+  font-size: 28px;
+}
+
+.patchCardWrapper h5 {
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.patchCardWrapper p {
+  font-size: 14px;
+}
+
+.itemIcon {
+  height: 1.5em;
+  width: 1.5em;
+  margin-right: 5px;
+  background-size: 100% 100%;
+}
+
+.patchCardWrapper h2 {
+  font-family: "Bebas Neue";
+  font-size: 28px;
+}
+
+.patchCard {
+  /* border: 1px solid black; */
+  box-shadow: 0 0 1em 0.25em rgba(0,0,0,0.2);
+  border-radius: 15px;
+  width: 25vw;
+  padding: 20px;
+
+  max-height: 60vh;
+  background-color: #fff;
+  overflow-y: scroll;
+  position: relative;
+  z-index: 101;
+}
+
+.attributeName {
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+}
+
+.statUpIcon {
+  height: 1em;
+  width: 25px;
+  /* margin-right: 3px; */
+  background-image: url('../assets/icons/up.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: inline-block;
+}
+
+.statDownIcon {
+  height: 1em;
+  width: 25px;
+  background-image: url('../assets/icons/down.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: inline-block;
+}
+
+.statNoChangeIcon {
+  height: 1em;
+  width: 25px;
+  margin-right: 3px;
+  background-image: url('../assets/icons/nochange.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: inline-block;
+}

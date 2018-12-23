@@ -1,0 +1,38 @@
+/*
+body {
+  background-color: #38A5F7;
+}
+
+
+.appName {
+  color: white;
+}
+.appDesc {
+  color: white;
+}
+
+
+.icon-circular {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.clear-button {
+  border: none;
+  background-color: transparent ;
+  outline: none;
+}
+
+.clear-button :hover {
+  cursor: pointer;
+}
+
+.orange-outline {
+  border: 4px solid orange;
+}
+*/
+
+.dot-label {
+  color: #fff;
+}

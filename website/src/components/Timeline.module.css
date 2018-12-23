@@ -1,0 +1,97 @@
+.timeline {
+  width: 100vw;
+  max-height: 100vh;
+}
+
+.timelineOverallWrapper {
+  padding: 10px;
+  /* display: flex;
+  flex-direction: row; */
+  height: 98vh;
+
+}
+
+.timelineInnerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  margin-left: 10px;
+  flex-direction: column;
+  flex: 1;
+  height: 90vh;
+}
+
+.infoCardContainer {
+  display: flex;
+  align-items: center;
+}
+.events {
+  bottom: 0;
+}
+
+.timelineCardCombo {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  align-content: center;
+}
+
+.timelineWrapper {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+  right: 20px;
+  z-index: 100;
+}
+
+.timelinePatchCard {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  height: 90vh;
+}
+
+.timelineBar {
+  width: 60%;
+  height: 100px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+}
+
+.championHeaderWrapper {
+  margin-left: 10px;
+  width: 100%;
+  display: flex;
+}
+
+.noChangesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex: 1 1;
+}
+
+.noChanges {
+  /* border: 2px solid #000; */
+  box-shadow: 0 0 1em 0.25em rgba(0,0,0,0.2);
+  border-radius: 15px;
+font-weight: bold;
+font-family: Bebas Neue;
+font-size: 1.5em;
+  padding: 20px 25px;
+  background-color: #fff;
+}

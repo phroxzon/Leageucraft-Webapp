@@ -4,7 +4,6 @@ import "./Landing.css";
 import * as data from './LearningObjects.json';
 import myVideo from './video.mp4';
 
-import SearchBar from "./SearchBar";
 import Navbar from "./Navbar";
 import Accordion from "./Accordion";
 

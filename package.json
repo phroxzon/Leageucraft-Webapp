@@ -1,4 +1,5 @@
 {
+  "homepage": "https://phroxzon.github.io/Leageucraft-Webapp",
   "name": "website",
   "version": "0.1.0",
   "private": true,
@@ -7,13 +8,14 @@
     "prop-types": "^15.6.2",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
-    "react-horizontal-timeline": "https://github.com/selynna/react-horizontal-timeline/tarball/master",
     "react-loader": "^2.4.5",
     "react-modal": "^3.6.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

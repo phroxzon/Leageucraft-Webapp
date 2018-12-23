@@ -3,10 +3,8 @@ import { Link, withRouter } from "react-router-dom";
 import "./Landing.css";
 
 import Parser from 'html-react-parser';
-import SearchBar from "./SearchBar";
 import Navbar from "./Navbar";
 import MainSidebar from "./MainSidebar";
-import Accordion from "./Accordion";
 
 class LearningPage extends Component {
   constructor(props) {
